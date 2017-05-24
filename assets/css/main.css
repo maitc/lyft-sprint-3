@@ -73,6 +73,7 @@ li a:hover{
 	background-image: url('../img/cropped-Lyft-Promo-Codes-car-1.jpg');
 	background-size: cover;
 	height: 800px;
+	background-attachment: fixed;/*fija la foto*/
 }
 /*formulario*/
 .headr-registro{
@@ -150,8 +151,9 @@ li a:hover{
 	border-left: none;
 	border-bottom: 1px solid #75726C;g: 5px;
 	margin: 8px;
+	outline: 0;
 }
-.start{
+.inputs #start{
 	display: block;
 	position: absolute;
 	right: 55px;
@@ -166,7 +168,7 @@ li a:hover{
 	box-shadow: 2px 2px 5px #999;
 	width: 406px;
 }
-.start:hover{
+.inputs #start:hover{
 	border-top: 15px solid #75726C;
 	border-bottom: 15px solid #75726C;	
 	border-left: 15px solid #75726C;
@@ -214,4 +216,13 @@ li a:hover{
 	margin: 0;
 	color:whitesmoke;
 	font-size: 10px;
+}
+.tablero{
+	background-color: #75726C;
+	width: 560px;
+	height: 276px;
+	position: absolute;
+	top: 950px;
+	left: 391px;
+	border: 2px solid #EDE9E2;
 }
